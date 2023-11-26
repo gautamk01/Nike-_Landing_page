@@ -1,0 +1,23 @@
+import { star } from "../assets/icons"
+
+
+export const ReviewCard = (Props) => {
+    return (
+        //     imgURL: any;
+        // customerName: string;
+        // rating: number;
+        // feedback: string;
+
+        <div className=" flex justify-center items-center flex-col">
+            <img src={Props.imgURL}
+                alt="CUstomer"
+                className=" rounded-full object-cover w-[120px] h-[120px]" />
+            <p className=" max-sm:text-lg max-w-sm mt-6 text-xl text-center font-montserrat text-slate-gray">{Props.feedback}</p>
+            <div className="mt-3 flex justify-center items-center">
+                <img src={star} width={24} height={24} className=" object-contain m-0" />
+                <p className=" text-xl font-montserrat text-slate-gray">{Props.rating}</p>
+            </div>
+            <h3 className=" mt-1 font-palanquin text-3xl text-center font-bold">{Props.customerName}</h3>
+        </div>
+    )
+}
