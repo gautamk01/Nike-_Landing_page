@@ -1,6 +1,6 @@
 # Nike Landing Page - React.js & Tailwind CSS
 
-![Nike Landing Page Preview](./path-to-image.png)
+![Nike Landing Page Preview](./https://github.com/gautamk01/Nike-_Landing_page/blob/main/Screenshot%20from%202024-10-18%2022-35-46.png)
 
 A beautiful and responsive Nike shoes landing page built using **React.js** and **Tailwind CSS**. The design emphasizes simplicity, modern UI, and user engagement with clean animations and a smooth experience.
 
